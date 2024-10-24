@@ -41,7 +41,9 @@ typedef enum
 
 	k_4_down,				
 	k_4_up,				    
-	k_4_long,				
+	k_4_long,			
+
+	key_code_max,	
 }key_code_enum;
 
 typedef struct 
