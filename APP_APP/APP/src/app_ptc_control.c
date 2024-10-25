@@ -32,6 +32,11 @@ uint8_t app_get_belt(void)
     }    
 }
 
+/**
+ * @description: ssss
+ * @param {PTC_Status_List} status ss
+ * @return {*}
+ */
 void app_ptc_control(PTC_Status_List status)
 {
     static uint32_t timer = 0;
